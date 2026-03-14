@@ -14,7 +14,7 @@ To achieve production-grade accuracy, I managed the complete data lifecycle:
 * **Robust Augmentation:** Implemented a specialized pipeline (rotation, contrast scaling, and Gaussian noise) to ensure model stability across varying weather conditions and drone camera angles.
 
 ### 2. Model Architecture & Training
-I leveraged a **Mask R-CNN** framework with a **ResNet-101 backbone** for deep feature extraction.
+I leveraged a **Mask R-CNN** framework with a **ResNet-50 backbone** for deep feature extraction.
 * **Transfer Learning:** Initialized with COCO weights and fine-tuned on custom telecom-specific layers.
 * **RPN Optimization:** Customized Region Proposal Network (RPN) anchor scales to detect both large equipment (blowers) and micro-components (labels).
 * **Multi-Task Loss Tuning:** Optimized the combined loss function (classification, localization, and mask accuracy) to ensure high $mAP$ (mean Average Precision).
