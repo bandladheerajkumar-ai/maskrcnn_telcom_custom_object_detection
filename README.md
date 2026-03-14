@@ -33,15 +33,3 @@ This project proves the capability to deliver a "Production-Ready" CV solution b
 * **Requirement Analysis:** Translating business pain points into computer vision tasks.
 * **Custom Training:** Building models that handle industrial edge cases (occlusions, low lighting).
 * **Scalable Inference:** Architecting code that can be deployed for high-volume batch processing.
-
----
-
-## 📂 Project Structure
-```text
-├── dataset/             # Custom annotated data (Images & JSON)
-├── mrcnn/               # Core Mask R-CNN architecture files
-├── src/
-│   ├── train.py         # Custom training script & hyperparameter config
-│   └── inference.py     # Production-ready detection script
-├── weights/             # (Proprietary) Trained .h5 model weights
-└── README.md
